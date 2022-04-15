@@ -3,6 +3,7 @@ services:
   server:
     build: ./server
     #container_name: server
+    image: 030411/server
     ports:
       - 5001:5001
     deploy:
@@ -10,6 +11,7 @@ services:
   client:
     build: ./client
     #container_name: client
+    image: 030411/client
     ports:
       - 3000:3000
     deploy:
