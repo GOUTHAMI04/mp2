@@ -12,3 +12,5 @@ COPY . .
 
 CMD [ "npm" ,"start" ]
 
+
+.
