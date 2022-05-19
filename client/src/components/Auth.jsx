@@ -27,7 +27,13 @@ const Auth = () => {
         e.preventDefault();
 
         const { username, password, phoneNumber, avatarURL } = form;
+            // #IPS server id addresse
+            // docker stack ps web
 
+            // rename ip address
+            // local -->  git push 
+            // git pull (master)
+            
         const URL = 'http://192.168.33.12:5001/auth';
         // const URL = 'https://medical-pager.herokuapp.com/auth';
 
